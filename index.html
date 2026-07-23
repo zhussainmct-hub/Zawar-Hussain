@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zawar Hussain · MEAL Advisor · Portfolio</title>
+  <title>Zawar Hussain · MEAL Portfolio</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <!-- Google Fonts: Inter + Poppins -->
@@ -12,417 +12,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- AddThis (share & follow) -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-66b8f2f8c4f2f0c8"></script>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: #eef3f8;
-      font-family: 'Inter', sans-serif;
-      color: #1e293b;
-      line-height: 1.5;
-      padding: 0;
-    }
-
-    .dashboard {
-      max-width: 1400px;
-      margin: 1.5rem auto;
-      background: #ffffff;
-      border-radius: 36px;
-      box-shadow: 0 30px 55px -15px rgba(0,20,40,0.20);
-      overflow: hidden;
-      padding: 0 2rem 2.5rem;
-    }
-
-    /* ----- TOP NAVIGATION BAR ----- */
-    .navbar {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 0.5rem 0.8rem 0.5rem;
-      border-bottom: 2px solid #e6eef6;
-      margin-bottom: 1.8rem;
-    }
-
-    .nav-logo {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 1.4rem;
-      color: #12416b;
-      letter-spacing: -0.5px;
-    }
-    .nav-logo span {
-      color: #2a7aa8;
-    }
-
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.8rem;
-      font-weight: 500;
-      font-size: 0.95rem;
-    }
-    .nav-links a {
-      color: #1f4970;
-      text-decoration: none;
-      transition: 0.1s;
-      border-bottom: 2px solid transparent;
-      padding-bottom: 4px;
-    }
-    .nav-links a:hover {
-      border-bottom-color: #2a7aa8;
-      color: #0b2b44;
-    }
-    .nav-links .cta-nav {
-      background: #1f6390;
-      color: white;
-      padding: 0.2rem 1.2rem;
-      border-radius: 40px;
-      font-weight: 600;
-      border-bottom: none;
-    }
-    .nav-links .cta-nav:hover {
-      background: #134b70;
-      color: white;
-    }
-
-    /* ----- HERO SECTION (with image) ----- */
-    .hero {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 2rem;
-      background: linear-gradient(145deg, #f7faff, #ecf3fc);
-      padding: 1.8rem 2rem;
-      border-radius: 28px;
-      margin-bottom: 2.2rem;
-      border: 1px solid #dce6f0;
-    }
-
-    .hero-avatar {
-      flex-shrink: 0;
-      width: 110px;
-      height: 110px;
-      background: linear-gradient(135deg, #1a4e73, #2b6d9b);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3rem;
-      font-weight: 700;
-      color: white;
-      font-family: 'Poppins', sans-serif;
-      box-shadow: 0 10px 20px rgba(26, 70, 110, 0.25);
-      border: 3px solid white;
-    }
-
-    .hero-content {
-      flex: 1;
-    }
-    .hero-content h1 {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 700;
-      font-size: 2.2rem;
-      color: #0b2b44;
-      margin-bottom: 0.1rem;
-    }
-    .hero-content .subhead {
-      font-size: 1rem;
-      font-weight: 400;
-      color: #1e4a6e;
-      background: rgba(33, 96, 143, 0.08);
-      padding: 0.4rem 1rem;
-      border-radius: 40px;
-      display: inline-block;
-      margin: 0.4rem 0 0.7rem;
-    }
-    .hero-content p {
-      max-width: 600px;
-      color: #1f405c;
-      font-size: 0.95rem;
-    }
-    .hero-btns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.8rem;
-      margin-top: 0.9rem;
-    }
-    .btn {
-      background: #1f6390;
-      color: white;
-      padding: 0.5rem 1.6rem;
-      border-radius: 40px;
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 0.9rem;
-      transition: 0.15s;
-      border: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .btn-outline {
-      background: transparent;
-      border: 2px solid #1f6390;
-      color: #1f6390;
-    }
-    .btn-outline:hover {
-      background: #1f6390;
-      color: white;
-    }
-    .btn:hover {
-      background: #134b70;
-      transform: scale(1.01);
-    }
-
-    /* ----- CAREER AT A GLANCE (stats) ----- */
-    .glance-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 1.2rem;
-      background: #f4f9ff;
-      padding: 1.2rem 1.8rem;
-      border-radius: 28px;
-      margin-bottom: 2.2rem;
-      border: 1px solid #dde8f2;
-    }
-    .glance-item {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-    .glance-item i {
-      font-size: 1.8rem;
-      color: #1f6390;
-      width: 2.2rem;
-      text-align: center;
-    }
-    .glance-item div {
-      display: flex;
-      flex-direction: column;
-    }
-    .glance-number {
-      font-weight: 700;
-      font-size: 1.3rem;
-      color: #0b2b44;
-      line-height: 1.2;
-    }
-    .glance-label {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-      color: #3f6a8b;
-      font-weight: 600;
-    }
-
-    /* ----- TWO COLUMN LAYOUT (geographic + humanitarian/development) ----- */
-    .two-col {
-      display: grid;
-      grid-template-columns: 1fr 1.6fr;
-      gap: 2rem;
-      margin-top: 0.5rem;
-    }
-
-    /* left panel: geographic experience + contact form */
-    .panel-left {
-      background: #fafcff;
-      border-radius: 24px;
-      padding: 0.2rem 0.2rem 0.2rem 0.2rem;
-    }
-    .panel-card {
-      background: white;
-      border-radius: 20px;
-      padding: 1.2rem 1.2rem 1.5rem;
-      border: 1px solid #e6eef6;
-      margin-bottom: 1.2rem;
-    }
-    .panel-title {
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 0.6px;
-      color: #1f5b7c;
-      border-bottom: 2px solid #e2ecf5;
-      padding-bottom: 0.4rem;
-      margin-bottom: 0.9rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .geo-list {
-      list-style: none;
-      padding-left: 0;
-    }
-    .geo-list li {
-      padding: 0.4rem 0 0.3rem 1.8rem;
-      position: relative;
-      font-size: 0.9rem;
-      border-bottom: 1px solid #f0f5fa;
-    }
-    .geo-list li::before {
-      content: "📍";
-      position: absolute;
-      left: 0;
-      top: 0.3rem;
-      font-size: 0.9rem;
-    }
-    .geo-tag {
-      display: inline-block;
-      background: #e7eff8;
-      border-radius: 40px;
-      padding: 0.15rem 0.9rem;
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #1a4b6e;
-      margin: 0.1rem 0.2rem;
-    }
-
-    /* contact form */
-    .contact-form {
-      margin-top: 0.5rem;
-    }
-    .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 0.7rem 1rem;
-      border: 1px solid #d4e0eb;
-      border-radius: 30px;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.85rem;
-      background: white;
-      margin-bottom: 0.8rem;
-      transition: 0.1s;
-    }
-    .contact-form input:focus, .contact-form textarea:focus {
-      outline: none;
-      border-color: #1f6390;
-      box-shadow: 0 0 0 3px rgba(31, 99, 144, 0.1);
-    }
-    .contact-form textarea {
-      border-radius: 20px;
-      min-height: 90px;
-      resize: vertical;
-    }
-    .contact-form .btn {
-      width: 100%;
-      justify-content: center;
-      border: none;
-    }
-
-    /* right panel: humanitarian & development blocks */
-    .panel-right {
-      display: flex;
-      flex-direction: column;
-      gap: 1.2rem;
-    }
-    .exp-block {
-      background: white;
-      border-radius: 24px;
-      padding: 1.2rem 1.5rem 1.5rem;
-      border: 1px solid #e6eef6;
-      box-shadow: 0 4px 8px rgba(0, 20, 30, 0.02);
-    }
-    .exp-block .block-title {
-      font-weight: 700;
-      font-size: 1.1rem;
-      color: #0f3d60;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 0.6rem;
-    }
-    .exp-block .block-title i {
-      color: #1f6b9b;
-      font-size: 1.2rem;
-      width: 1.6rem;
-    }
-    .exp-block ul {
-      list-style: none;
-      padding-left: 0.2rem;
-    }
-    .exp-block ul li {
-      padding: 0.35rem 0 0.25rem 1.6rem;
-      position: relative;
-      font-size: 0.86rem;
-      border-bottom: 1px solid #f0f6fc;
-      color: #1f3f5c;
-    }
-    .exp-block ul li::before {
-      content: "▹";
-      color: #1f6b9b;
-      position: absolute;
-      left: 0;
-      font-weight: 700;
-    }
-    .badge-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem 0.6rem;
-      margin-top: 0.4rem;
-    }
-    .badge-list span {
-      background: #eaf2fa;
-      padding: 0.2rem 1rem;
-      border-radius: 30px;
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #00447a;
-    }
-
-    /* responsive */
-    @media (max-width: 900px) {
-      .two-col {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-      }
-      .hero {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1.5rem;
-      }
-      .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.6rem;
-      }
-      .nav-links {
-        gap: 1rem;
-      }
-    }
-    @media (max-width: 550px) {
-      .dashboard {
-        padding: 0 1rem 1.5rem;
-        margin: 0.5rem;
-        border-radius: 20px;
-      }
-      .glance-grid {
-        grid-template-columns: 1fr 1fr;
-        padding: 0.8rem;
-      }
-    }
-
-    /* addthis inline share/follow */
-    .addthis_inline_share_toolbox, .addthis_inline_follow_toolbox {
-      margin-top: 0.2rem;
-    }
-    .footer-social {
-      border-top: 1px solid #dee8f2;
-      margin-top: 1.8rem;
-      padding-top: 1.2rem;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="dashboard">
+<div class="dashboard" id="app">
 
   <!-- ===== NAVIGATION BAR ===== -->
   <nav class="navbar">
@@ -431,13 +25,19 @@
       <a href="#">Home</a>
       <a href="#">Experience</a>
       <a href="#">Insights</a>
-      <a href="#" class="cta-nav">Contact</a>
-      <!-- AddThis follow (inline) -->
+      <a href="#contact" class="cta-nav">Contact</a>
       <div class="addthis_inline_follow_toolbox" style="display:inline-block; margin-left:0.2rem;"></div>
     </div>
   </nav>
 
-  <!-- ===== HERO with image (avatar) ===== -->
+  <!-- ===== SCROLLING HEADLINE (right to left) ===== -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>✦ 16+ years international MEAL experience · UNFPA · Oxfam · IOM · 85 evaluations · 46+ research studies · 40+ partner MEAL systems · 20+ Power BI dashboards · GBP 19M mobilized · 11 countries ✦</span>
+    </div>
+  </div>
+
+  <!-- ===== HERO with avatar ===== -->
   <div class="hero">
     <div class="hero-avatar">ZH</div>
     <div class="hero-content">
@@ -445,13 +45,13 @@
       <div class="subhead"><i class="fas fa-bullseye" style="margin-right:6px;"></i>Senior MEAL Advisor · RBM & Gender-Transformative</div>
       <p>16+ years of international experience leading Monitoring, Evaluation, Accountability & Learning (MEAL), Results-Based Management, Data Analytics, Research, Organizational Learning and Programme Quality across UN agencies and international NGOs.</p>
       <div class="hero-btns">
-        <a href="#" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        <a href="#contact" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
         <a href="#" class="btn btn-outline"><i class="fas fa-arrow-right"></i> View Experience</a>
       </div>
     </div>
   </div>
 
-  <!-- ===== CAREER AT A GLANCE ===== -->
+  <!-- ===== CAREER AT A GLANCE (expanded KPIs) ===== -->
   <div class="glance-grid">
     <div class="glance-item"><i class="fas fa-chart-pie"></i><div><span class="glance-number">85</span><span class="glance-label">Evaluations</span></div></div>
     <div class="glance-item"><i class="fas fa-microscope"></i><div><span class="glance-number">46+</span><span class="glance-label">Research Studies</span></div></div>
@@ -459,9 +59,11 @@
     <div class="glance-item"><i class="fas fa-users"></i><div><span class="glance-number">40+</span><span class="glance-label">Partner MEAL systems</span></div></div>
     <div class="glance-item"><i class="fas fa-globe-asia"></i><div><span class="glance-number">11</span><span class="glance-label">Countries</span></div></div>
     <div class="glance-item"><i class="fas fa-database"></i><div><span class="glance-number">20+</span><span class="glance-label">Power BI Dashboards</span></div></div>
+    <div class="glance-item"><i class="fas fa-hand-holding-usd"></i><div><span class="glance-number">£19M</span><span class="glance-label">Mobilized</span></div></div>
+    <div class="glance-item"><i class="fas fa-people-arrows"></i><div><span class="glance-number">34+</span><span class="glance-label">MEAL staff supervised</span></div></div>
   </div>
 
-  <!-- ===== TWO COLUMN: Geographic + Humanitarian/Development ===== -->
+  <!-- ===== TWO COLUMN: Geographic + Humanitarian/Development + Contact ===== -->
   <div class="two-col">
 
     <!-- LEFT: Geographic experience + Contact Form -->
@@ -484,19 +86,21 @@
         </div>
       </div>
 
-      <!-- CONTACT FORM (Formspree) -->
-      <div class="panel-card" style="background:#f4faff;">
+      <!-- CONTACT FORM (Formspree) with extra fields -->
+      <div class="panel-card" id="contact" style="background:#f4faff;">
         <div class="panel-title"><i class="fas fa-envelope-open-text"></i> Contact</div>
-        <form class="contact-form" action="https://formspree.io/f/maqrdkry" method="POST">
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/maqrdkry" method="POST">
           <input type="text" name="name" placeholder="Full name" required>
           <input type="email" name="email" placeholder="Email address" required>
+          <input type="text" name="organization" placeholder="Organization (optional)">
           <input type="text" name="subject" placeholder="Subject">
-          <textarea name="message" placeholder="Your message ..."></textarea>
+          <textarea name="message" placeholder="Your message ..." required></textarea>
           <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send message</button>
         </form>
         <div style="margin-top: 0.6rem; font-size:0.7rem; color:#3e6d92; text-align:center;">
           <i class="fas fa-lock"></i> secure · formspree.io
         </div>
+        <div id="formFeedback" style="margin-top:0.5rem; font-weight:500; font-size:0.9rem;"></div>
       </div>
     </div>
 
@@ -557,5 +161,7 @@
 
 </div> <!-- dashboard -->
 
+<!-- JavaScript -->
+<script src="script.js"></script>
 </body>
 </html>
