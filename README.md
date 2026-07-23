@@ -1,2 +1,23 @@
 # Zawar-Hussain
 Senior MEAL Advisor | RBM, RMF &amp;  Gender-Transformative  Expert  |  Power BI &amp; Data Systems Specialist  |16 Years (UNFPA, Oxfam, IOM) 
+•	Regional MEAL and Programme Quality Specialist with 16 years of experience leading Monitoring, Evaluation, Accountability and Learning (MEAL), Results-Based Management (RBM), organizational learning, knowledge management, programme quality improvement, accountability systems and evidence-based decision making across UN agencies and international NGOs throughout Asia, Africa and the Middle East. Extensive experience supporting Country Offices, developing regional MEAL frameworks, strengthening partner capacity, leading evaluations, managing organizational reporting, and promoting adaptive learning across humanitarian and development programmes.
+•	Led and managed 85 evaluations, 46+ research studies, 5 annual reviews, 22 project proposals, 40+ concept notes, 6 donors mapping, 5 TPM projects, 2 funding strategies development and over 100 monitoring & learning exercises across Asia, Africa, and the MENA region, while supervising and mentoring teams of up to 34 MEAL professionals and 100+ field staff, significantly strengthening organizational capacity and program quality outcomes.
+•	Designed and implemented 10+ sustainability and responsible exit plans, created 20+ interactive dashboards in Power BI, and built MEAL systems for 40+ national and international partners, ensuring effective performance tracking, strong partner accountability, and long-term system adoption.
+•	Demonstrated expertise in multi-country program frameworks, having designed Results Frameworks, Logical Frameworks, Performance Frameworks, Theories of Change, and MEAL systems for flagship initiatives such as Pakistan Approach to total sanitation (PATS & PATS plus),WASH and climate-resilient infrastructure project including solid waste management and Urban resilience initiatives specially ADB in Pakistan and GIZin Jordan, WVL (Women’s Voice and Leadership), VCP (Equality in Action), GROW, GRAICEA II, Masarouna, Power to Choose, and DAHLAR.
+•	Extensive experience in designing and operationalizing results frameworks, leading midterm and final evaluations, and producing Quarterly Performance Reports (QPRs) aligned with donor requirements. Strong background in data systems (MIS, KOBO, Power BI), trend analysis, and evidence-based decision-making
+•	Led strategic business development and end-to-end proposal processes across multiple Asia country programs, strengthening donor positioning, ensuring full compliance, and improving proposal quality. Advanced donor and local partner engagement through effective pre-positioning, consortium coordination, and competitive bid development
+•	Strong background in UN coordination, representing UNFPA in inter-agency M&E working groups and contributing to joint programming and reporting.
+•	Led the design and monitoring of sustainability and responsible exit plans for major donor-funded programs, including FCDO’s Aawaz-II (Inclusion, Accountability and Reducing Modern Slavery in Pakistan), TVET (Technical and Vocational Education and Training) and youth employment and the GAC-funded Women’s Voice and Leadership (WVL) program across MENA, ensuring institutionalization of MEAL systems beyond project lifecycles.
+•	Data Management and Reporting Specialist with 15+ years of experience leading data governance, analytics, and reporting systems across humanitarian and development programmes in MENA, Asia, and Africa.
+•	Proven expertise in data lifecycle management, data quality assurance (DQA), and metadata standards, supporting evidence-based planning, donor reporting, and audit readiness.
+•	Advanced experience in designing dashboards, integrating multi-source data systems, and developing analytical products aligned with UN Strategic Plans and Results-Based Management (RBM) frameworks.
+•	Strong track record in UN reporting, UNSDCF frameworks, and cross-programme data harmonization, ensuring compliance, transparency, and decision-making support.
+•	Experienced in designing Evidence-Based Adaptive Management tools (surveys, KIIs), conducting field and remote monitoring, performing quantitative and qualitative 
+DATA MANAGEMENT & REPORTING EXPERTISE
+•	Data governance frameworks, data stewardship, and metadata management
+•	Data quality assurance (DQA) systems, validation protocols, and data audits
+•	Data lifecycle management (collection, storage, processing, analysis, reporting)
+•	Information management systems (MIS, KOBO, DevResults, CMIS, Power BI)
+•	Dashboard development, automation, and reporting pipelines
+•	SQL / database management / Indicator tracking systems aligned with RBM and logframe frameworks
+
