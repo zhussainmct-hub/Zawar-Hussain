@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zawar Hussain · Senior MEAL Advisor · Portfolio</title>
-  <!-- Font Awesome (free icons) -->
+  <title>Zawar Hussain · MEAL Advisor · Portfolio</title>
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <!-- Google Fonts: Inter + Poppins for clean, ATS-friendly typography -->
+  <!-- Google Fonts: Inter + Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -20,382 +20,403 @@
     }
 
     body {
-      background: #f4f7fc;
+      background: #eef3f8;
       font-family: 'Inter', sans-serif;
       color: #1e293b;
-      padding: 2rem 1.5rem;
       line-height: 1.5;
+      padding: 0;
     }
 
     .dashboard {
       max-width: 1400px;
-      margin: 0 auto;
-      background: white;
-      border-radius: 32px;
-      box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15);
+      margin: 1.5rem auto;
+      background: #ffffff;
+      border-radius: 36px;
+      box-shadow: 0 30px 55px -15px rgba(0,20,40,0.20);
       overflow: hidden;
-      padding: 2rem 2rem 3rem;
-      transition: all 0.2s;
+      padding: 0 2rem 2.5rem;
     }
 
-    /* ===== HEADER / HERO ===== */
-    .hero {
+    /* ----- TOP NAVIGATION BAR ----- */
+    .navbar {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 2.5rem;
-      border-bottom: 2px solid #eef2f6;
-      padding-bottom: 1.8rem;
+      padding: 1rem 0.5rem 0.8rem 0.5rem;
+      border-bottom: 2px solid #e6eef6;
+      margin-bottom: 1.8rem;
     }
 
-    .hero-left {
+    .nav-logo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #12416b;
+      letter-spacing: -0.5px;
+    }
+    .nav-logo span {
+      color: #2a7aa8;
+    }
+
+    .nav-links {
       display: flex;
-      align-items: center;
-      gap: 1rem;
       flex-wrap: wrap;
+      gap: 1.8rem;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    .nav-links a {
+      color: #1f4970;
+      text-decoration: none;
+      transition: 0.1s;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 4px;
+    }
+    .nav-links a:hover {
+      border-bottom-color: #2a7aa8;
+      color: #0b2b44;
+    }
+    .nav-links .cta-nav {
+      background: #1f6390;
+      color: white;
+      padding: 0.2rem 1.2rem;
+      border-radius: 40px;
+      font-weight: 600;
+      border-bottom: none;
+    }
+    .nav-links .cta-nav:hover {
+      background: #134b70;
+      color: white;
     }
 
-    .avatar-placeholder {
-      width: 80px;
-      height: 80px;
-      background: linear-gradient(145deg, #1a3a5c, #2b5b8a);
+    /* ----- HERO SECTION (with image) ----- */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+      background: linear-gradient(145deg, #f7faff, #ecf3fc);
+      padding: 1.8rem 2rem;
+      border-radius: 28px;
+      margin-bottom: 2.2rem;
+      border: 1px solid #dce6f0;
+    }
+
+    .hero-avatar {
+      flex-shrink: 0;
+      width: 110px;
+      height: 110px;
+      background: linear-gradient(135deg, #1a4e73, #2b6d9b);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
+      font-size: 3rem;
+      font-weight: 700;
       color: white;
-      font-size: 2.2rem;
-      font-weight: 600;
       font-family: 'Poppins', sans-serif;
-      box-shadow: 0 8px 14px rgba(27, 55, 96, 0.2);
-      flex-shrink: 0;
+      box-shadow: 0 10px 20px rgba(26, 70, 110, 0.25);
+      border: 3px solid white;
     }
 
-    .title-block h1 {
+    .hero-content {
+      flex: 1;
+    }
+    .hero-content h1 {
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
       font-size: 2.2rem;
-      letter-spacing: -0.02em;
       color: #0b2b44;
-      margin-bottom: 0.2rem;
+      margin-bottom: 0.1rem;
     }
-
-    .title-block .badge {
-      background: #d4e2f0;
-      padding: 0.25rem 1rem;
+    .hero-content .subhead {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #1e4a6e;
+      background: rgba(33, 96, 143, 0.08);
+      padding: 0.4rem 1rem;
       border-radius: 40px;
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: #10436b;
       display: inline-block;
-      margin-top: 4px;
+      margin: 0.4rem 0 0.7rem;
     }
-
-    .hero-right {
-      text-align: right;
+    .hero-content p {
+      max-width: 600px;
+      color: #1f405c;
+      font-size: 0.95rem;
+    }
+    .hero-btns {
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 4px;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 0.9rem;
+    }
+    .btn {
+      background: #1f6390;
+      color: white;
+      padding: 0.5rem 1.6rem;
+      border-radius: 40px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: 0.15s;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid #1f6390;
+      color: #1f6390;
+    }
+    .btn-outline:hover {
+      background: #1f6390;
+      color: white;
+    }
+    .btn:hover {
+      background: #134b70;
+      transform: scale(1.01);
     }
 
-    .contact-line {
+    /* ----- CAREER AT A GLANCE (stats) ----- */
+    .glance-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1.2rem;
+      background: #f4f9ff;
+      padding: 1.2rem 1.8rem;
+      border-radius: 28px;
+      margin-bottom: 2.2rem;
+      border: 1px solid #dde8f2;
+    }
+    .glance-item {
       display: flex;
       align-items: center;
-      gap: 8px;
-      font-size: 0.95rem;
-      background: #f0f4fa;
-      padding: 0.3rem 1rem 0.3rem 0.8rem;
-      border-radius: 40px;
-      margin: 4px 0;
+      gap: 12px;
     }
-
-    .contact-line i {
+    .glance-item i {
+      font-size: 1.8rem;
       color: #1f6390;
-      width: 1.2rem;
+      width: 2.2rem;
       text-align: center;
     }
-
-    .addthis_inline_follow_toolbox {
-      margin-top: 8px;
-    }
-
-    /* ===== quick stats ===== */
-    .stats-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 1.2rem;
-      background: #f8fafd;
-      padding: 1.2rem 1.5rem;
-      border-radius: 24px;
-      margin-bottom: 2.2rem;
-      border: 1px solid #e2e8f0;
-    }
-
-    .stat-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .stat-item i {
-      font-size: 1.7rem;
-      color: #256a92;
-      width: 2rem;
-    }
-
-    .stat-item div {
+    .glance-item div {
       display: flex;
       flex-direction: column;
     }
-
-    .stat-number {
+    .glance-number {
       font-weight: 700;
       font-size: 1.3rem;
+      color: #0b2b44;
       line-height: 1.2;
-      color: #0f3b5c;
     }
-
-    .stat-label {
+    .glance-label {
       font-size: 0.7rem;
       text-transform: uppercase;
-      letter-spacing: 0.3px;
-      color: #4d6a85;
+      letter-spacing: 0.4px;
+      color: #3f6a8b;
       font-weight: 600;
     }
 
-    /* ===== grid layout: 2 cols ===== */
-    .main-grid {
+    /* ----- TWO COLUMN LAYOUT (geographic + humanitarian/development) ----- */
+    .two-col {
       display: grid;
-      grid-template-columns: 1fr 1.3fr;
+      grid-template-columns: 1fr 1.6fr;
       gap: 2rem;
       margin-top: 0.5rem;
     }
 
-    /* left panel */
-    .panel {
-      background: #ffffff;
-      border-radius: 20px;
-      padding: 0.2rem 0;
+    /* left panel: geographic experience + contact form */
+    .panel-left {
+      background: #fafcff;
+      border-radius: 24px;
+      padding: 0.2rem 0.2rem 0.2rem 0.2rem;
     }
-
+    .panel-card {
+      background: white;
+      border-radius: 20px;
+      padding: 1.2rem 1.2rem 1.5rem;
+      border: 1px solid #e6eef6;
+      margin-bottom: 1.2rem;
+    }
     .panel-title {
       font-family: 'Poppins', sans-serif;
       font-weight: 600;
       font-size: 1rem;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: #376b91;
-      border-bottom: 2px solid #e6edf5;
-      padding-bottom: 0.5rem;
-      margin: 1.5rem 0 1rem 0;
+      letter-spacing: 0.6px;
+      color: #1f5b7c;
+      border-bottom: 2px solid #e2ecf5;
+      padding-bottom: 0.4rem;
+      margin-bottom: 0.9rem;
       display: flex;
       align-items: center;
       gap: 8px;
     }
-
-    .panel-title i {
-      color: #1d5b85;
+    .geo-list {
+      list-style: none;
+      padding-left: 0;
     }
-
-    .core-tag {
+    .geo-list li {
+      padding: 0.4rem 0 0.3rem 1.8rem;
+      position: relative;
+      font-size: 0.9rem;
+      border-bottom: 1px solid #f0f5fa;
+    }
+    .geo-list li::before {
+      content: "📍";
+      position: absolute;
+      left: 0;
+      top: 0.3rem;
+      font-size: 0.9rem;
+    }
+    .geo-tag {
       display: inline-block;
-      background: #eaf1f9;
-      padding: 0.3rem 0.9rem;
+      background: #e7eff8;
+      border-radius: 40px;
+      padding: 0.15rem 0.9rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #1a4b6e;
+      margin: 0.1rem 0.2rem;
+    }
+
+    /* contact form */
+    .contact-form {
+      margin-top: 0.5rem;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border: 1px solid #d4e0eb;
       border-radius: 30px;
-      font-size: 0.75rem;
-      font-weight: 500;
-      color: #1a4d72;
-      margin: 0.2rem 0.25rem;
-      border: 1px solid #d2e0ed;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      background: white;
+      margin-bottom: 0.8rem;
+      transition: 0.1s;
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+      outline: none;
+      border-color: #1f6390;
+      box-shadow: 0 0 0 3px rgba(31, 99, 144, 0.1);
+    }
+    .contact-form textarea {
+      border-radius: 20px;
+      min-height: 90px;
+      resize: vertical;
+    }
+    .contact-form .btn {
+      width: 100%;
+      justify-content: center;
+      border: none;
     }
 
-    .exp-item {
-      margin-bottom: 1.2rem;
+    /* right panel: humanitarian & development blocks */
+    .panel-right {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
     }
-
-    .exp-item strong {
+    .exp-block {
+      background: white;
+      border-radius: 24px;
+      padding: 1.2rem 1.5rem 1.5rem;
+      border: 1px solid #e6eef6;
+      box-shadow: 0 4px 8px rgba(0, 20, 30, 0.02);
+    }
+    .exp-block .block-title {
       font-weight: 700;
-      color: #123f60;
-      display: block;
-      font-size: 0.95rem;
+      font-size: 1.1rem;
+      color: #0f3d60;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 0.6rem;
     }
-
-    .exp-item .meta {
-      font-size: 0.8rem;
-      color: #54738f;
-      margin: 0.1rem 0 0.2rem;
+    .exp-block .block-title i {
+      color: #1f6b9b;
+      font-size: 1.2rem;
+      width: 1.6rem;
     }
-
-    .exp-item p {
-      font-size: 0.88rem;
-      color: #2a4057;
-      margin-top: 0.2rem;
-    }
-
-    .bullet-list {
+    .exp-block ul {
       list-style: none;
       padding-left: 0.2rem;
     }
-
-    .bullet-list li {
-      font-size: 0.85rem;
-      padding: 0.3rem 0 0.2rem 1.4rem;
+    .exp-block ul li {
+      padding: 0.35rem 0 0.25rem 1.6rem;
       position: relative;
-      border-bottom: 1px solid #f0f4f9;
+      font-size: 0.86rem;
+      border-bottom: 1px solid #f0f6fc;
+      color: #1f3f5c;
     }
-
-    .bullet-list li::before {
+    .exp-block ul li::before {
       content: "▹";
-      color: #1a6b9b;
-      position: absolute;
-      left: 0;
-      font-weight: 700;
-    }
-
-    .highlight-box {
-      background: #f5f9ff;
-      border-left: 4px solid #256a92;
-      padding: 0.8rem 1.2rem;
-      border-radius: 12px;
-      margin: 1rem 0;
-      font-size: 0.9rem;
-    }
-
-    /* right panel – experience cards */
-    .exp-card {
-      background: #fafcff;
-      border-radius: 18px;
-      padding: 1rem 1.2rem;
-      margin-bottom: 1.2rem;
-      border: 1px solid #eaf0f6;
-      transition: 0.1s ease;
-    }
-
-    .exp-card:hover {
-      border-color: #b6d2e9;
-      background: #f7faff;
-    }
-
-    .exp-card .title {
-      font-weight: 700;
-      font-size: 1rem;
-      color: #0b2b44;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    .exp-card .org {
-      font-weight: 600;
-      color: #31658b;
-    }
-
-    .exp-card .date {
-      font-size: 0.75rem;
-      background: #e3ebf3;
-      padding: 0.1rem 0.7rem;
-      border-radius: 30px;
-      font-weight: 500;
-    }
-
-    .exp-card ul {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 0.6rem;
-    }
-
-    .exp-card ul li {
-      font-size: 0.82rem;
-      padding: 0.2rem 0 0.1rem 1.2rem;
-      position: relative;
-      color: #1e3d59;
-    }
-
-    .exp-card ul li::before {
-      content: "✦";
       color: #1f6b9b;
       position: absolute;
       left: 0;
-      font-size: 0.7rem;
-      top: 0.2rem;
+      font-weight: 700;
     }
-
-    .achievement-badge {
-      background: #dceaf5;
-      padding: 0.15rem 0.8rem;
-      border-radius: 40px;
-      font-size: 0.7rem;
-      font-weight: 600;
-      color: #004070;
-      display: inline-block;
-    }
-
-    hr {
-      margin: 1.2rem 0;
-      border: 0;
-      border-top: 1px solid #e7edf4;
-    }
-
-    /* language & education */
-    .lang-edu {
+    .badge-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem 1.2rem;
-      background: #f7faff;
-      padding: 0.8rem 1.2rem;
-      border-radius: 20px;
-      margin-top: 1.2rem;
+      gap: 0.3rem 0.6rem;
+      margin-top: 0.4rem;
+    }
+    .badge-list span {
+      background: #eaf2fa;
+      padding: 0.2rem 1rem;
+      border-radius: 30px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #00447a;
     }
 
-    .lang-edu span {
-      font-size: 0.85rem;
-    }
-
-    .lang-edu i {
-      color: #23658f;
-      width: 1.3rem;
-    }
-
-    /* ATS + responsive */
+    /* responsive */
     @media (max-width: 900px) {
-      .main-grid {
+      .two-col {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
       }
       .hero {
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
+        padding: 1.5rem;
       }
-      .hero-right {
-        align-items: start;
-        width: 100%;
-        margin-top: 0.5rem;
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
       }
-      .contact-line {
-        font-size: 0.8rem;
-      }
-      .stats-grid {
-        grid-template-columns: repeat(3, 1fr);
+      .nav-links {
+        gap: 1rem;
       }
     }
-
     @media (max-width: 550px) {
       .dashboard {
-        padding: 1rem;
+        padding: 0 1rem 1.5rem;
+        margin: 0.5rem;
+        border-radius: 20px;
       }
-      .stats-grid {
+      .glance-grid {
         grid-template-columns: 1fr 1fr;
+        padding: 0.8rem;
       }
     }
 
-    /* share buttons via addthis */
-    .addthis_inline_share_toolbox {
-      margin: 0.5rem 0 0.2rem;
+    /* addthis inline share/follow */
+    .addthis_inline_share_toolbox, .addthis_inline_follow_toolbox {
+      margin-top: 0.2rem;
     }
-    .addthis_inline_follow_toolbox {
-      margin: 0.2rem 0;
+    .footer-social {
+      border-top: 1px solid #dee8f2;
+      margin-top: 1.8rem;
+      padding-top: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
     }
   </style>
 </head>
@@ -403,186 +424,138 @@
 
 <div class="dashboard">
 
-  <!-- HEADER -->
+  <!-- ===== NAVIGATION BAR ===== -->
+  <nav class="navbar">
+    <div class="nav-logo">Zawar<span>Hussain</span></div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Experience</a>
+      <a href="#">Insights</a>
+      <a href="#" class="cta-nav">Contact</a>
+      <!-- AddThis follow (inline) -->
+      <div class="addthis_inline_follow_toolbox" style="display:inline-block; margin-left:0.2rem;"></div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO with image (avatar) ===== -->
   <div class="hero">
-    <div class="hero-left">
-      <div class="avatar-placeholder">ZH</div>
-      <div class="title-block">
-        <h1>Zawar Hussain</h1>
-        <div class="badge"><i class="fas fa-bullseye" style="margin-right:6px;"></i>Senior MEAL Advisor · RBM & Gender-Transformative</div>
-        <div style="display:flex; flex-wrap:wrap; gap:0.5rem 1rem; margin-top:5px; font-size:0.8rem; color:#1f4b6e;">
-          <span><i class="fas fa-map-pin"></i> Islamabad · Amman</span>
-          <span><i class="fas fa-calendar-alt"></i> 16+ years · UNFPA, Oxfam, IOM</span>
+    <div class="hero-avatar">ZH</div>
+    <div class="hero-content">
+      <h1>Hello, I'm Zawar Hussain</h1>
+      <div class="subhead"><i class="fas fa-bullseye" style="margin-right:6px;"></i>Senior MEAL Advisor · RBM & Gender-Transformative</div>
+      <p>16+ years of international experience leading Monitoring, Evaluation, Accountability & Learning (MEAL), Results-Based Management, Data Analytics, Research, Organizational Learning and Programme Quality across UN agencies and international NGOs.</p>
+      <div class="hero-btns">
+        <a href="#" class="btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        <a href="#" class="btn btn-outline"><i class="fas fa-arrow-right"></i> View Experience</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== CAREER AT A GLANCE ===== -->
+  <div class="glance-grid">
+    <div class="glance-item"><i class="fas fa-chart-pie"></i><div><span class="glance-number">85</span><span class="glance-label">Evaluations</span></div></div>
+    <div class="glance-item"><i class="fas fa-microscope"></i><div><span class="glance-number">46+</span><span class="glance-label">Research Studies</span></div></div>
+    <div class="glance-item"><i class="fas fa-project-diagram"></i><div><span class="glance-number">22</span><span class="glance-label">Proposals / CN</span></div></div>
+    <div class="glance-item"><i class="fas fa-users"></i><div><span class="glance-number">40+</span><span class="glance-label">Partner MEAL systems</span></div></div>
+    <div class="glance-item"><i class="fas fa-globe-asia"></i><div><span class="glance-number">11</span><span class="glance-label">Countries</span></div></div>
+    <div class="glance-item"><i class="fas fa-database"></i><div><span class="glance-number">20+</span><span class="glance-label">Power BI Dashboards</span></div></div>
+  </div>
+
+  <!-- ===== TWO COLUMN: Geographic + Humanitarian/Development ===== -->
+  <div class="two-col">
+
+    <!-- LEFT: Geographic experience + Contact Form -->
+    <div class="panel-left">
+      <div class="panel-card">
+        <div class="panel-title"><i class="fas fa-map-marked-alt"></i> Geographic Experience</div>
+        <ul class="geo-list">
+          <li><strong>Pakistan</strong> · UNFPA, Oxfam, IOM, PRSP, MOJAZ <span class="geo-tag">16+ yrs</span></li>
+          <li><strong>Jordan</strong> · Oxfam MENA, UNFPA regional <span class="geo-tag">3+ yrs</span></li>
+          <li><strong>Syria, Lebanon, Yemen</strong> · humanitarian MEAL, Oxfam</li>
+          <li><strong>Sudan, Myanmar</strong> · crisis response & adaptive learning</li>
+          <li><strong>Tunisia, Morocco</strong> · VCP Equality in Action evaluation</li>
+          <li><strong>Cambodia, Iraq</strong> · multi-country programme frameworks</li>
+        </ul>
+        <div style="margin-top: 0.3rem;">
+          <span class="geo-tag">MENA</span>
+          <span class="geo-tag">South Asia</span>
+          <span class="geo-tag">SE Asia</span>
+          <span class="geo-tag">East Africa</span>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM (Formspree) -->
+      <div class="panel-card" style="background:#f4faff;">
+        <div class="panel-title"><i class="fas fa-envelope-open-text"></i> Contact</div>
+        <form class="contact-form" action="https://formspree.io/f/maqrdkry" method="POST">
+          <input type="text" name="name" placeholder="Full name" required>
+          <input type="email" name="email" placeholder="Email address" required>
+          <input type="text" name="subject" placeholder="Subject">
+          <textarea name="message" placeholder="Your message ..."></textarea>
+          <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send message</button>
+        </form>
+        <div style="margin-top: 0.6rem; font-size:0.7rem; color:#3e6d92; text-align:center;">
+          <i class="fas fa-lock"></i> secure · formspree.io
         </div>
       </div>
     </div>
-    <div class="hero-right">
-      <div class="contact-line"><i class="fas fa-phone-alt"></i> +92 305 5435667</div>
-      <div class="contact-line"><i class="fas fa-envelope"></i> zhussain.mct@gmail.com</div>
-      <div class="contact-line"><i class="fab fa-linkedin"></i> Zawar Hussain | LinkedIn</div>
-      <!-- AddThis follow & share -->
-      <div class="addthis_inline_follow_toolbox" style="margin-top:6px;"></div>
+
+    <!-- RIGHT: Humanitarian & Development panels -->
+    <div class="panel-right">
+      <!-- Humanitarian -->
+      <div class="exp-block">
+        <div class="block-title"><i class="fas fa-hand-holding-heart"></i> Humanitarian Experience</div>
+        <ul>
+          <li>MEAL in emergencies: Sudan, Syria, Lebanon, Yemen, Pakistan, Myanmar</li>
+          <li>Real-time monitoring, inter-agency coordination, adaptive learning</li>
+          <li>GBV & SRHR service monitoring (UNFPA, Oxfam)</li>
+          <li>Feedback & Complaint Response Mechanisms (FCRM) – hotlines, WhatsApp</li>
+          <li>Emergency appeal reporting, situation analysis, and rapid needs assessments</li>
+          <li>Third-party monitoring (TPM) for protection & WASH programmes</li>
+        </ul>
+        <div class="badge-list">
+          <span>WASH</span><span>Protection</span><span>GBV</span><span>SRHR</span><span>Shelter</span>
+        </div>
+      </div>
+
+      <!-- Development -->
+      <div class="exp-block">
+        <div class="block-title"><i class="fas fa-seedling"></i> Development & Resilience</div>
+        <ul>
+          <li>Women's Voice & Leadership (WVL) – MENA: baseline & capacity building</li>
+          <li>VCP Equality in Action (Canada) – midline evaluation across 3 countries</li>
+          <li>FCDO Aawaz-II: inclusion, accountability, modern slavery (Pakistan)</li>
+          <li>Climate-resilient infrastructure, solid waste management (ADB, GIZ)</li>
+          <li>Green economy, zero plastic, recycling initiatives (GRAICEA II)</li>
+          <li>TVET & youth employment, private sector engagement</li>
+          <li>Gender-transformative programming & feminist MEAL</li>
+        </ul>
+        <div class="badge-list">
+          <span>RBM</span><span>Gender</span><span>Climate</span><span>Governance</span><span>Economic Justice</span>
+        </div>
+      </div>
+
+      <!-- Quick highlights -->
+      <div style="display:flex; flex-wrap:wrap; gap:0.5rem; background:#eef6fe; border-radius:20px; padding:0.7rem 1.2rem; border:1px solid #d3e2f0;">
+        <span style="font-weight:600; color:#134b70;"><i class="fas fa-flag"></i> 85 evaluations · 46 research</span>
+        <span style="font-weight:600; color:#134b70;"><i class="fas fa-chart-line"></i> GBP 19M mobilized</span>
+        <span style="font-weight:600; color:#134b70;"><i class="fas fa-people-arrows"></i> 34+ MEAL professionals supervised</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer with addthis share & extra -->
+  <div class="footer-social">
+    <div>
+      <span style="font-size:0.8rem; color:#2c5e80;"><i class="fas fa-phone-alt"></i> +92 305 5435667</span>
+      <span style="font-size:0.8rem; color:#2c5e80; margin-left:1.2rem;"><i class="fas fa-envelope"></i> zhussain.mct@gmail.com</span>
+    </div>
+    <div>
       <div class="addthis_inline_share_toolbox"></div>
-    </div>
-  </div>
-
-  <!-- STATS -->
-  <div class="stats-grid">
-    <div class="stat-item"><i class="fas fa-chart-pie"></i><div><span class="stat-number">85</span><span class="stat-label">Evaluations</span></div></div>
-    <div class="stat-item"><i class="fas fa-microscope"></i><div><span class="stat-number">46+</span><span class="stat-label">Research Studies</span></div></div>
-    <div class="stat-item"><i class="fas fa-project-diagram"></i><div><span class="stat-number">22</span><span class="stat-label">Proposals / CN</span></div></div>
-    <div class="stat-item"><i class="fas fa-database"></i><div><span class="stat-number">40+</span><span class="stat-label">Partners MEAL systems</span></div></div>
-    <div class="stat-item"><i class="fas fa-globe-asia"></i><div><span class="stat-number">11</span><span class="stat-label">Countries</span></div></div>
-  </div>
-
-  <!-- MAIN GRID -->
-  <div class="main-grid">
-
-    <!-- LEFT COLUMN : Core, education, languages, key competencies -->
-    <div class="panel">
-
-      <div class="panel-title"><i class="fas fa-star"></i> Core competencies</div>
-      <div style="margin-bottom: 0.8rem;">
-        <span class="core-tag">RBM & Results Frameworks</span>
-        <span class="core-tag">MEAL & Strategic Oversight</span>
-        <span class="core-tag">Indicator Development & DQA</span>
-        <span class="core-tag">Evaluation Management</span>
-        <span class="core-tag">Strategic Information Systems</span>
-        <span class="core-tag">Portfolio Governance</span>
-        <span class="core-tag">Adaptive Learning</span>
-        <span class="core-tag">AI-driven Tools & Predictive Analytics</span>
-        <span class="core-tag">Data Lifecycle Mastery</span>
-        <span class="core-tag">Power BI & Dashboards</span>
-      </div>
-
-      <div class="panel-title"><i class="fas fa-graduation-cap"></i> Education</div>
-      <div class="exp-item">
-        <strong>MBA · Development Management</strong>
-        <div class="meta">NUML Pakistan · 2009–2010 · 3.73/4 (93%)</div>
-        <p style="font-size:0.8rem; color:#235f85;">Certified in M&E, RBM, RMF, and data analysis</p>
-      </div>
-
-      <div class="panel-title"><i class="fas fa-language"></i> Languages</div>
-      <div style="display:flex; flex-wrap:wrap; gap:0.3rem 1.2rem; font-size:0.9rem; padding-bottom:0.5rem;">
-        <span><i class="fas fa-check-circle" style="color:#1b7b4d;"></i> English (Fluent)</span>
-        <span><i class="fas fa-check-circle" style="color:#1b7b4d;"></i> Arabic (Fluent)</span>
-        <span><i class="fas fa-check-circle" style="color:#1b7b4d;"></i> Urdu & Saraiki (Native)</span>
-      </div>
-
-      <div class="panel-title"><i class="fas fa-bullhorn"></i> Data & Reporting</div>
-      <ul class="bullet-list">
-        <li>MIS, KOBO, DevResults, CMIS, Power BI</li>
-        <li>Dashboard development & automation</li>
-        <li>SQL / database management · RBM indicator tracking</li>
-        <li>UNSDCF, UN Strategic Plan alignment</li>
-        <li>DQA, metadata standards, audit readiness</li>
-      </ul>
-
-      <div class="highlight-box">
-        <i class="fas fa-flag" style="color:#1f6b9b; margin-right:8px;"></i>
-        <strong>16+ years</strong> · UNFPA, Oxfam, IOM · Asia, Africa, Middle East
-        <div style="margin-top:4px; font-size:0.8rem;">85 evaluations · 46 research · 40+ partners · 20+ Power BI dashboards</div>
-      </div>
-
-      <div class="lang-edu">
-        <span><i class="fas fa-tasks"></i> 10+ sustainability/exit plans</span>
-        <span><i class="fas fa-chart-line"></i> 6 donor mappings</span>
-        <span><i class="fas fa-people-arrows"></i> Supervised 34+ MEAL professionals</span>
-      </div>
-    </div>
-
-    <!-- RIGHT COLUMN : experience & achievements (truncated but with full flavour) -->
-    <div class="panel">
-
-      <div class="panel-title"><i class="fas fa-briefcase"></i> Key Experience</div>
-
-      <!-- UNFPA -->
-      <div class="exp-card">
-        <div class="title"><span><span class="org">UNFPA</span> · Program Analyst M&E</span> <span class="date">Feb 2025 – Mar 2026</span></div>
-        <ul>
-          <li>Led RBM integration for 10th Country Programme, aligning with UN Strategic Plan.</li>
-          <li>Pioneered AI-driven predictive analytics for GBV & SRHR real-time monitoring.</li>
-          <li>Developed RRF/RMF, contributed to UNSDCF, and led exit/sustainability plans.</li>
-          <li>Mobilised GBP 19M through proposals (USAID, FCDO, World Bank, GIZ, etc.)</li>
-          <li>Designed dashboards, DQA frameworks, and integrated data systems (KOBO, MIS).</li>
-        </ul>
-      </div>
-
-      <!-- Oxfam MENA -->
-      <div class="exp-card">
-        <div class="title"><span><span class="org">Oxfam GB</span> · Advisor MEL (MENA)</span> <span class="date">Mar 2022 – Feb 2025</span></div>
-        <ul>
-          <li>Strategic business development & donor positioning (FCDO, EU, GAC, World Bank).</li>
-          <li>Headed MENA Gender-Transformative Strategy, increased gender outcomes by 40%.</li>
-          <li>Managed $19M multi-country MEL framework, 28 partners across 9 countries.</li>
-          <li>Led midline evaluation VCP “Equality in Action” (Tunisia, Morocco, Jordan).</li>
-          <li>Capacity building on Feminist MEAL, remote monitoring, and social accountability.</li>
-        </ul>
-      </div>
-
-      <!-- Oxfam Pakistan -->
-      <div class="exp-card">
-        <div class="title"><span><span class="org">Oxfam GB</span> · Manager MEAL (Pakistan)</span> <span class="date">Jun 2019 – Mar 2022</span></div>
-        <ul>
-          <li>Technical oversight for 26 projects; developed MEAL plans, baselines, evaluations.</li>
-          <li>Fostered public-private partnerships (GRAICEA II) & green economy initiatives.</li>
-          <li>Led final evaluations for DFAT, EU, Oxfam Sweden; DEval Pakistan case study.</li>
-          <li>Gender mainstreaming & feminist MEAL capacity building for partners.</li>
-        </ul>
-      </div>
-
-      <!-- PRSP + MOJAZ + IOM brief -->
-      <div class="exp-card" style="background:#f5faff;">
-        <div class="title"><span><span class="org">PRSP · Deputy Manager M&E</span> <span class="date">2016–2019</span></span></div>
-        <ul><li>Performance Monitoring Plan, GBV/child marriage programmes, supervision of 12+ officers.</li></ul>
-        <div class="title" style="margin-top:6px;"><span><span class="org">MOJAZ Foundation · M&E Officer</span> <span class="date">2012–2016</span></span></div>
-        <ul><li>Evaluation strategy, knowledge management, needs assessments, dashboards.</li></ul>
-        <div class="title" style="margin-top:6px;"><span><span class="org">IOM · IM/MEAL Officer</span> <span class="date">2010–2012</span></span></div>
-        <ul><li>FCRM systems, SitReps, databases (KOBO, Excel), coordination with UN clusters.</li></ul>
-      </div>
-
-      <hr>
-
-      <div class="panel-title" style="margin-top:0;"><i class="fas fa-medal"></i> Selected Achievements</div>
-      <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> 85 evaluations</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> 46+ research studies</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> 40+ MEAL systems for partners</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> 20+ Power BI dashboards</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> 10+ exit & sustainability plans</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> GBP 19M mobilized</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> MENA Gender-transformative strategy +40%</span>
-        <span class="achievement-badge"><i class="fas fa-check-circle"></i> UNFPA RRF/RMF 10th CPD</span>
-      </div>
-
-      <div style="margin-top:1rem; background:#eaf1f9; border-radius:16px; padding:0.5rem 1rem; font-size:0.8rem; display:flex; flex-wrap:wrap; gap:0.2rem 0.8rem;">
-        <span><i class="fas fa-file-alt"></i> FCDO, EU, USAID, GAC, World Bank, GIZ, ADB</span>
-        <span><i class="fas fa-robot"></i> AI-driven surveys & predictive analytics</span>
-        <span><i class="fas fa-globe"></i> 11 countries · Sudan, Syria, Yemen, Pakistan, Jordan, etc.</span>
-      </div>
-
-      <!-- AddThis share (inline) -->
-      <div style="margin-top: 1.5rem; border-top: 1px solid #dde6ef; padding-top: 1rem; display: flex; justify-content: flex-end;">
-        <div class="addthis_inline_share_toolbox"></div>
-      </div>
-
-    </div> <!-- right panel -->
-  </div> <!-- main-grid -->
-
-  <!-- footnote: contact & formspree (simple) -->
-  <div style="margin-top: 2.2rem; padding-top: 1.2rem; border-top: 1px solid #e1eaf2; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
-    <div style="font-size:0.8rem; color:#3e688a;">
-      <i class="fas fa-paper-plane" style="margin-right:6px;"></i> 
-      <a href="https://formspree.io/f/maqrdkry" target="_blank" style="color:#1f5b83; font-weight:500; text-decoration:none; border-bottom:1px dotted #8fb5d4;">Connect via Formspree</a>
-    </div>
-    <div style="display:flex; gap:1rem; font-size:0.8rem;">
-      <span><i class="fas fa-map-marker-alt"></i> Islamabad · Amman</span>
-      <span><i class="fas fa-envelope"></i> zhussain.mct@gmail.com</span>
     </div>
   </div>
 
 </div> <!-- dashboard -->
 
-<!-- AddThis script (already loaded) -->
 </body>
 </html>
