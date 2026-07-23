@@ -1,158 +1,334 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Poppins,sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zawar Hussain | Senior MEAL Advisor</title>
 
-body{
-background:#f4f6f8;
-color:#333;
-line-height:1.6;
-}
+    <link rel="stylesheet" href="style.css">
 
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 10%;
-background:#003366;
-color:white;
-position:sticky;
-top:0;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-nav ul{
-display:flex;
-list-style:none;
-}
+    <script src="https://kit.fontawesome.com/your-kit.js" crossorigin="anonymous"></script>
+</head>
 
-nav li{
-margin-left:30px;
-}
+<body>
 
-nav a{
-color:white;
-text-decoration:none;
-}
+<header>
 
-.hero{
-height:90vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-background:linear-gradient(135deg,#004e92,#000428);
-color:white;
-padding:30px;
-}
+    <div class="logo">
+        ZH
+    </div>
 
-.hero h1{
-font-size:60px;
-}
+    <nav>
 
-.hero h2{
-margin:20px 0;
-font-weight:400;
-}
+        <ul>
 
-.btn{
-display:inline-block;
-padding:12px 25px;
-margin:15px;
-background:#ff9800;
-color:white;
-text-decoration:none;
-border-radius:5px;
-transition:.3s;
-}
+            <li><a href="#home">Home</a></li>
 
-.btn:hover{
-background:#e68900;
-}
+            <li><a href="#about">About</a></li>
 
-.secondary{
-background:#2ecc71;
-}
+            <li><a href="#skills">Skills</a></li>
 
-section{
-padding:80px 10%;
-}
+            <li><a href="#experience">Experience</a></li>
 
-.about-grid{
-display:grid;
-grid-template-columns:2fr 1fr;
-gap:50px;
-}
+            <li><a href="#projects">Projects</a></li>
 
-.stats{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:20px;
-}
+            <li><a href="#contact">Contact</a></li>
 
-.card{
-background:white;
-padding:25px;
-text-align:center;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
+        </ul>
 
-.skills-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:15px;
-}
+    </nav>
 
-.skill{
-background:#003366;
-color:white;
-padding:18px;
-text-align:center;
-border-radius:8px;
-}
+</header>
 
-.timeline-item{
-background:white;
-padding:25px;
-margin-bottom:25px;
-border-left:5px solid #003366;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
 
-.project-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
+<section id="home" class="hero">
 
-.project{
-background:white;
-padding:25px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-}
+<div class="hero-content">
 
-footer{
-background:#003366;
-color:white;
-padding:20px;
-text-align:center;
-}
+<h3>Hello, I'm</h3>
 
-@media(max-width:768px){
+<h1>Zawar Hussain</h1>
 
-.about-grid{
-grid-template-columns:1fr;
-}
+<h2>Senior MEAL Advisor | RBM Specialist | Data & Evaluation Expert</h2>
 
-.hero h1{
-font-size:40px;
-}
+<p>
 
-nav ul{
-display:none;
-}
+16+ years of international experience leading Monitoring, Evaluation, Accountability & Learning (MEAL), Results-Based Management, Data Analytics, Research, Organizational Learning and Programme Quality across UN agencies and international NGOs.
 
-}
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+<a href="#experience" class="btn secondary">View Experience</a>
+
+</div>
+
+</section>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="about-grid">
+
+<div>
+
+<h3>Professional Summary</h3>
+
+<p>
+
+I am a Monitoring, Evaluation, Accountability and Learning (MEAL) specialist with more than 16 years of experience working across Asia, Africa and the Middle East.
+
+</p>
+
+<p>
+
+I have worked with UNFPA, Oxfam GB, IOM, PRSP and various international donors leading evaluations, research studies, programme quality improvement, organizational learning, knowledge management, Power BI dashboards, data systems and strategic planning.
+
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="card">
+
+<h2>85+</h2>
+
+<p>Evaluations</p>
+
+</div>
+
+<div class="card">
+
+<h2>46+</h2>
+
+<p>Research Studies</p>
+
+</div>
+
+<div class="card">
+
+<h2>20+</h2>
+
+<p>Power BI Dashboards</p>
+
+</div>
+
+<div class="card">
+
+<h2>100+</h2>
+
+<p>Monitoring Missions</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="skills">
+
+<h2>Core Expertise</h2>
+
+<div class="skills-grid">
+
+<div class="skill">Monitoring & Evaluation</div>
+
+<div class="skill">Results Based Management</div>
+
+<div class="skill">Programme Quality</div>
+
+<div class="skill">Research & Evaluations</div>
+
+<div class="skill">Power BI</div>
+
+<div class="skill">Kobo Toolbox</div>
+
+<div class="skill">Qualtrics</div>
+
+<div class="skill">SurveyCTO</div>
+
+<div class="skill">SPSS</div>
+
+<div class="skill">STATA</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">SQL</div>
+
+<div class="skill">Dashboard Development</div>
+
+<div class="skill">AI for Development</div>
+
+<div class="skill">Data Governance</div>
+
+<div class="skill">Knowledge Management</div>
+
+</div>
+
+</section>
+
+
+<section id="experience">
+
+<h2>Professional Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>UNFPA Pakistan</h3>
+
+<h4>Programme Analyst (Monitoring & Evaluation)</h4>
+
+<span>2025 - Present</span>
+
+<p>
+
+Leading Results Based Management, UN reporting, Power BI dashboards, evaluations, sustainability planning, donor reporting and AI-driven monitoring systems.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Oxfam GB MENA</h3>
+
+<h4>Advisor Monitoring, Evaluation & Learning</h4>
+
+<span>2022 - 2025</span>
+
+<p>
+
+Regional MEAL Advisor supporting 9 country offices across Middle East and North Africa.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Oxfam Pakistan</h3>
+
+<h4>Manager MEAL</h4>
+
+<span>2019 - 2022</span>
+
+<p>
+
+Led national MEAL systems, research, donor reporting and evaluations across Pakistan.
+
+</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>IOM Pakistan</h3>
+
+<h4>Information Management Officer</h4>
+
+<span>2010 - 2012</span>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Selected Achievements</h2>
+
+<div class="project-grid">
+
+<div class="project">
+
+<h3>Power BI Dashboards</h3>
+
+<p>
+
+Designed more than 20 interactive dashboards for donor reporting and executive decision making.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>85 Evaluations</h3>
+
+<p>
+
+Managed evaluations across humanitarian, development, WASH, GBV, SRHR, Climate and Education.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Research</h3>
+
+<p>
+
+Completed over 46 mixed-method research studies across Asia, Africa and MENA.
+
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>International Experience</h3>
+
+<p>
+
+Worked across Pakistan, Jordan, Syria, Yemen, Iraq, Lebanon, Sudan, Tunisia, Morocco and other countries.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Islamabad, Pakistan</p>
+
+<p>Email: zhussain.mct@gmail.com</p>
+
+<p>Phone: +92 305 5435667</p>
+
+<div>
+
+<a href="#">LinkedIn</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Zawar Hussain | Portfolio</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
