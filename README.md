@@ -468,6 +468,89 @@ Saraiki — Native
 
 •	Provided strategic MEAL leadership spanning 2 regions (MENA, South & Southeast Asia) and 11+ countries, shaping evidence and decision-making for 100+ projects across humanitarian and development settings.
 
+
+**List of Evaluations I conducted**
+
+Designed and implemented feminist baseline for Women’s Voice and Leadership Programme across Jordan, Lebanon, and Tunisia applying participatory methodologies with partner organizations and supporting strategic planning processes. 
+
+Executed the 2024 Midline Evaluation of the VCP "Equality in Action" Program: Spearheaded a detailed midline evaluation of the Canadian-funded program across the MENA region (Tunisia, Morocco, Jordan). Employed both qualitative and quantitative methodologies, effectively collaborating with 22 partner organizations to measure program progress and inform future strategies. 
+
+Big Programs Needs Assessment Study at country level by OXFAM IN JORDAN aims to ensure Oxfam's interventions align with the evolving needs of communities in Jordan and to develop conutry operational plan (COP) and 5 year country strategy.
+
+Rapid Need assessment on analysing the situation of women specially youth in Ma’an-Jordan on employment and skills development status under AICS in 2023. 
+
+Facilitated Program Learning Events for the VCP "Equality in Action" Program (2023-2024): Organized and led strategic learning events for 22 partners across the MENA region, focusing on the Canadian-funded VCP "Equality in Action" program. Generated actionable lessons learned and provided strategic recommendations to country teams to enhance program implementation and impact. 
+
+Executed Midline Evaluation for the "Power to Choose" SRHR Program: Successfully conducted a midline evaluation of the GAC-funded project, providing critical insights to enhance sexual and reproductive health and rights (SRHR) initiatives. 
+
+Organized KAP Survey in Zaatari Camp for GIZ and UNICEF: Utilized AI-driven applications to design and implement a Knowledge, Attitudes, and Practices (KAP) survey for the Solid Waste Management project, improving waste management strategies in the camp.
+
+Completed Final Evaluation for GBV Survivors in Women’s Economic Empowerment Project: Led the final evaluation of the GAC-funded project, measuring outcomes for gender-based violence (GBV) survivors and informing future economic empowerment strategies.
+
+Appraisal of the Syria-Iraq Peace and Stabilisation Program (PSP), 2022-2025: The provision of quality assurance of the design of the 4-year program for DANIDA, Ministry of Foreign Affairs, and Ministry of Defence. Assess risk management framework, capacity of partners, theories of change, & budget to support the humanitarian-development-peace nexus. 
+
+US Bureau of Near Eastern Affairs Syria Rapid Labour Market Assessment: Rapid LMA to determine challenges, best practices, recommendations for quick-impact vocational (TVET) & skills-based programs for youth in Deir ez-Zor, under Injaz Project, to support local partners. 
+
+Morocco Compact Artisan Fez Medina Project – Vocational Training Activity: Assessment of functional literacy/vocational training in the artisan (handicrafts), agrio & small-scale fishery sectors to follow-up to end of 2013 evaluation. 
+
+Gender Equity in Education: Designed and conducted baseline study; Prepared training manual; trained staff on data collection & entry, devised data capture tools (survey questionnaires), and analyzed and presented data
+
+Conducted the final evaluation of the Building Resilient Communities in Pakistan project funded by DFAT (Dec 2021, Oxfam GB), delivering strategic insights to enhance community resilience. 
+
+Evaluated the Girls' Education Programme - ACE in Pakistan, funded by the EU, contributing to the transformation of educational strategies for girls. 
+
+Led the final evaluation of the Gender-Transformative & Responsible Business Investment project in Southeast Asia, funded by Oxfam Sweden and the private sector (Dec 2021, Oxfam GB).
+
+Executed the end-line evaluation of the Strengthening Evidence for Equitable Financing in Girls' Education project (2018-2019), advocating for equitable education financing. 
+
+Conducted a midline evaluation of the Innovative Partnerships for Ending Violence Against Women and Girls initiative in Pakistan, focusing on technology-driven learning and women's economic empowerment. 
+
+Integrated Gender Equality and Social Inclusion (GESI) into the education sector assessment for JICA in Pakistan (Jan-Mar 2020), informing policy development.
+
+Evaluated the Contribution of German Bilateral Cooperation to Gender Equality in Post-Conflict Contexts, leading the Pakistan case study for DEval (2019-2020). 
+
+Conducted the final evaluation of the Empowerment of Women in Mansehra project, funded by Oxfam Germany (2012-2013), enhancing women's access to community resources. 
+
+Conducted research study on assessing issues and challenges hindering girls' mobility in target areas under a youth economic empowerment project. 
+
+Conducted the Rapid Need Readiness & Response Assessment of Health Care & Social Protection Mechanisms for WHO (Feb-Jul 2019), supporting effective response strategies. 
+
+Conducted a Rapid Need Assessment for COVID-19 Response for Oxfam GB, informing pandemic response strategies. 
+
+Led a study on Living Gap Income Analysis in GRAISEA-II Farmers in Gujranwala and Sheikhupura, Oxfam GB, driving agricultural sustainability. 
+
+Conducted research to assess challenges to Girls’ Mobility and Ways Out under the Youth Economic Empowerment Project (Plan Pakistan, Dec 2014-Feb 2015). 
+
+Conducted a research study on Protecting the Girl Child for Oxfam, informing child protection strategies. 
+
+Conducted the final evaluation of the Girls Lower Secondary School Program (GLSEP) in Pakistan, funded by UNESCO, serving as a National Evaluation Expert with I-Con Consulting Germany in 2024.
+
+Led the final evaluation of the AICS Italian Government-funded project for primary education and enrollment of girls in Pakistan, collaborating with UNESCO as a National Evaluation Expert through I-Con Consulting Germany in 2024. 
+
+Executed a Hazard Vulnerability Capacity Assessment with PDMA Punjab for flood contingency planning, providing critical insights for disaster preparedness and risk management.
+
+Conducted the final evaluation of the ESP Project in Quetta, Baluchistan (Catholic Relief Services, Aug-Jun 2016), delivering critical insights for program improvement.
+
+Led the impact assessment of the Promoting Gender Equality for Decent Employment (GE4DE) project (Global Affairs Canada, Apr-Jun 2016), utilizing the Long-we Gender Framework to measure women's empowerment.
+
+Executed rapid assessments of Education Grantee Projects in South Punjab, Khyber Pakhtunkhwa, and Sindh (DAI ILM Ideas, Jul-Dec 2014), informing project performance and outcomes.
+
+Evaluated the Technical Support for Strategic Planning provided to Provincial Governments and Teachers Training Institutes (USAID Teacher Education Project, Mar- Jul 2013), assessing policy reform progress.
+
+Conducted the program evaluation and Project Completion Report for the Punjab Education Sector Program and the Punjab Education Roadmap (DFID, Sep-Nov 2012), enhancing strategic planning capacity.
+
+Led a study on Living Gap Income Analysis in GRAISEA-II farmers in Gujranwala and Sheikhupura (Oxfam GB), providing actionable insights for agricultural sustainability. 
+
+Researched and assessed challenges to Girls' Mobility and Ways Out under the Youth Economic Empowerment Project (Plan Pakistan, Dec 2014-Feb 2015), identifying barriers and solutions. 
+
+Conducted a Research Study on Protecting the Girl Child (Oxfam), contributing to child protection strategies. 
+
+Led research on Teachers' and Parents' Assumptions about Education in a Primary Education Project in Battagram, Khyber Pakhtunkhwa (Save the Children, Apr 2011), informing education interventions. 
+
+Provided technical support for Scoping Future Education Interventions in Azad Jammu & Kashmir (DFID, Sep-Nov 2012), guiding future education policies. 
+
+Evaluated the Contribution of German Bilateral Cooperation to Gender Equality in Post- Conflict Contexts (Deval, Sep 2019-Jul 2020), enhancing gender equality strategies in post-conflict regions. 
+
 **Professional Memberships**
 
 Member, Evaluation Community Pakistan
