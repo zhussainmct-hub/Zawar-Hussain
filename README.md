@@ -1,42 +1,78 @@
 # Zawar-Hussain
-Global MEAL, Evaluation & Research Advisor | 88+ Evaluations Led | UN, INGO & Humanitarian-Development Programming| RBM, RMF & Gender-Transformative Expert  | AI-Enabled Analytics & Power B Data Systems Specialist  | AI  enabled R specialist|16 Years (UNFPA, Oxfam, IOM) 
-Islamabad, Pakistan  |  Amman, Jordan
-+92 305 5435667  |  zhussain.mct@gmail.com  |  linkedin.com/in/zawarhussain-639439b4
 
-**PROFESSIONAL SUMMARY :**
+Global MEAL, Evaluation & Research Advisor | 88+ Evaluations Led | UN, INGO & Humanitarian-Development Programming| RBM, RMF & Gender-Transformative Expert|
+|AI-Enabled Analytics & Power B Data Systems Specialist  | AI  enabled R specialist|16 Years (UNFPA, Oxfam, IOM) 
+
+Islamabad, Pakistan  |  Amman, Jordan
+
++92 305 5435667  |  zhussain.mct@gmail.com | 
+linkedin.com/in/zawarhussain-639439b4
+
+**PROFESSIONAL SUMMARY**
 
 Global Monitoring, Evaluation, Accountability and Learning (MEAL) Advisor and Results-Based Management (RBM) specialist with 16+ years designing and directing evaluation, research, and third-party monitoring (TPM) systems for UN agencies (UNFPA, IOM) and international NGOs (Oxfam GB/Oxfam-Québec) across Asia, the Middle East, and Africa.
+
 Led or co-led 88+ evaluations, 49+ research studies, 6 annual reviews, and 107+ monitoring and learning exercises across 14+ countries, spanning humanitarian response and long-term development programming. Built and operationalized RBM frameworks, Results & Resources Frameworks, and Theories of Change for flagship multi-country initiatives (Aawaz II, WVL, VCP Equality in Action, GROW, GRAISEA II, DAHLAR), engineered 20+ AI-enabled Power BI dashboards, and contributed to mobilizing GBP 19 million in donor funding through 22 proposal processes. Certified RBM Trainer and feminist-transformative MEAL practitioner; supervises MEAL teams of up to 34 professionals and 100+ field enumerators; deep technical grounding in GBV/SRHR, gender equality, WASH, education, and climate-resilience programming, reinforced by specialist AI, data-science, and field-security certifications
+
 16 annual reviews of Program, wrote 22 project proposals, 40+ concept notes, 6 donors mapping, 6 TPM projects, 2 funding strategies development and over 100 monitoring & learning exercises across Asia, Africa, and the MENA region, while supervising and mentoring teams of up to 34 MEAL professionals and 100+ field staff, significantly strengthening organizational capacity and program quality outcomes.
+
 Designed and implemented 10+ sustainability and responsible exit plans, created 20+ interactive dashboards in Power BI, and built MEAL systems for 40+ national and international partners, ensuring effective performance tracking, strong partner accountability, and long-term system adoption.
+
 Demonstrated expertise in multi-country program frameworks, having designed Results Frameworks, Logical Frameworks, Performance Frameworks, Theories of Change, and MEAL systems for flagship initiatives such as Pakistan Approach to total sanitation (PATS & PATS plus),WASH and climate-resilient infrastructure project including solid waste management and Urban resilience initiatives specially ADB in Pakistan and GIZin Jordan, WVL (Women’s Voice and Leadership), VCP (Equality in Action), GROW, GRAICEA II, Masarouna, Power to Choose, and DAHLAR.
+
 Extensive experience in designing and operationalizing results frameworks, leading midterm and final evaluations, and producing Quarterly Performance Reports (QPRs) aligned with donor requirements. Strong background in data systems (MIS, KOBO, Power BI), trend analysis, and evidence-based decision-making
+
 Led strategic business development and end-to-end proposal processes across multiple Asia country programs, strengthening donor positioning, ensuring full compliance, and improving proposal quality. Advanced donor and local partner engagement through effective pre-positioning, consortium coordination, and competitive bid development
+
 Strong background in UN coordination, representing UNFPA in inter-agency M&E working groups and contributing to joint programming and reporting.
 Led the design and monitoring of sustainability and responsible exit plans for major donor-funded programs, including FCDO’s Aawaz-II (Inclusion, Accountability and Reducing Modern Slavery in Pakistan), TVET (Technical and Vocational Education and Training) and youth employment and the GAC-funded Women’s Voice and Leadership (WVL) program across MENA, ensuring institutionalization of MEAL systems beyond project lifecycles.
+
 Data Management and Reporting Specialist with 15+ years of experience leading data governance, analytics, and reporting systems across humanitarian and development programmes in MENA, Asia, and Africa.
 Proven expertise in data lifecycle management, data quality assurance (DQA), and metadata standards, supporting evidence-based planning, donor reporting, and audit readiness.
+
 Advanced experience in designing dashboards, integrating multi-source data systems, and developing analytical products aligned with UN Strategic Plans and Results-Based Management (RBM) frameworks.
+
 Strong track record in UN reporting, UNSDCF frameworks, and cross-programme data harmonization, ensuring compliance, transparency, and decision-making support.
+
 Experienced in designing Evidence-Based Adaptive Management tools (surveys, KIIs), conducting field and remote monitoring, performing quantitative and qualitative 
+
+
+
+
 **DATA MANAGEMENT & REPORTING EXPERTISE**
+
+
 •	Data governance frameworks, data stewardship, and metadata management
+
 •	Data quality assurance (DQA) systems, validation protocols, and data audits
+
 •	Data lifecycle management (collection, storage, processing, analysis, reporting)
+
 •	Information management systems (MIS, KOBO, DevResults, CMIS, Power BI)
+
 •	Dashboard development, automation, and reporting pipelines
+
 •	SQL / database management / Indicator tracking systems aligned with RBM and logframe frameworks
+
+
 
 **EDUCATION**
 
 Master’s in business administration - MBA (Development management complemented by certified training in Monitoring & Evaluation, Results-Based Management (RBM) RMF, , and data analysis)
+
 National University of Modern Languages (NUML) - Pakistan
+
 2009 – 2010 | 3.734 / 4 - 93%.
 
+
 **Bachelor of Commerce (B.Com) — Business & Management**
+
 Bahauddin Zakariya University (BZU), Multan, Pakistan | 2006 – 2008
 
+
 **GEOGRAPHIC EXPERIENCE**
+
+
 Pakistan — 44+ assignments (2010–Present)
 Jordan/MENA — 32+ assignments (2022–Present)
 Sudan, Syria, Lebanon, Yemen, Iraq, Afghanistan — humanitarian & TPM assignments
@@ -51,6 +87,7 @@ Nepal — 3 assignments (2023)
 **AREAS OF EXPERTISE**
 
 **Monitoring, Evaluation & Research**
+
 •	Evaluation design & management — baseline, midline, endline, thematic, and impact evaluations (OECD-DAC criteria, UNEG standards)
 •	Third-Party Monitoring (TPM) & remote monitoring — independent verification, KII/survey tool design, data triangulation
 •	Feminist MEAL & adaptive management — participatory, power-sensitive, movement-outcome evaluation approaches
@@ -61,6 +98,7 @@ Nepal — 3 assignments (2023)
 •	Research design — KAP surveys, KIIs/FGDs, household surveys, costing studies, longitudinal studies; sampling design using G*Power
 
 **Programme, Portfolio & Project Management**
+
 •	Multi-country portfolio governance and delivery planning across complex, multi-stakeholder environments
 •	Project management cycles — planning, MEAL plans, learning & accountability plans, feedback mechanisms
 •	Donor and inter-agency reporting, compliance, and proposal/business development support
@@ -68,6 +106,7 @@ Nepal — 3 assignments (2023)
 •	AI in Project & Programme Management — applying AI-enabled tools to planning, risk-flagging, and adaptive decision-making
 
 **Data, AI & Digital Systems**
+
 •	AI-enabled analytics — predictive monitoring, AI-automated Power BI dashboard development, sentiment/social-listening analytics for community feedback loops
 •	AI-automated R programming for statistical analysis and reporting
 •	Data lifecycle management — from collection design through storage, quality assurance, and archiving
@@ -76,11 +115,13 @@ Nepal — 3 assignments (2023)
 •	Reporting & visualization — Power BI (20+ dashboards built), DHIS, MIS, DevResults, CMIS
 
 **Team Leadership & Field Safety**
+
 •	Supervised and mentored MEAL teams of up to 34 professionals plus 100+ field enumerators/data collectors across simultaneous country programmes
 •	Delivered capacity-building and training for MEAL teams, government counterparts, and 40+ partner organisations
 •	Certified in SSAFE (Safe and Secure Approaches in Field Environments) and BSAFE (UN Basic Security in the Field)
 
 **Thematic & Sector Expertise**
+
 •	Gender equity, GBV prevention & response, SRHR, and feminist-transformative programming
 •	Child protection, girls' education, and youth economic empowerment
 •	WASH, solid waste management, climate resilience, and green-economy infrastructure
